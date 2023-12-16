@@ -1,0 +1,10 @@
+.dialerbtn {
+    display: grid;
+    grid-template-columns: repeat(3, 60px);
+    grid-template-rows: repeat(3, 60px); /* Added grid-template-rows */
+    gap: 10px;
+  }
+  
+  .dialerbtn .btn{ background-color: black !important; display: block;}
+
+  .dialedNumber{height: 50px; display: block;}
